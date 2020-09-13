@@ -7,11 +7,11 @@
  *
  */
 
-namespace Piwik\Plugins\GoogleTheme;
+namespace Piwik\Plugins\GTheme;
 
 use Piwik\Plugin;
 
-class GoogleTheme extends Plugin
+class GTheme extends Plugin
 {
     public function getListHooksRegistered()
     {

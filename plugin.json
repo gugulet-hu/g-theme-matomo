@@ -1,31 +1,24 @@
 {
-    "name": "GoogleTheme",
-    "description": "A sublime Google Analytics theme for Matomo",
-    "version": "1.0.5",
-    "theme": true,
-    "require": {
-        "piwik": ">=3.13.1-stable,<4.0.0-b1"
-    },
-    "stylesheet": "stylesheets\/theme.less",
-    "javascript": "javascripts\/theme.js",
-    "homepage": "https://lazuli.agency",
-    "license": "GPL v3+",
-    "keywords": [
-        "Google Analytics", "Google", "Modern", "GA"
-    ],
-    "support": {
-        "email": "contact@ronan-hello.fr",
-        "issues": "https://github.com/ronan-hello/matomo-google-theme/issues",
-        "source": "https://github.com/ronan-hello/matomo-google-theme"
-    },
-    "authors": [
-        {
-            "name": "Ronan HELLO",
-            "email": "contact@ronan-hello.fr",
-            "homepage": "https://ronan-hello.fr"
-        }
-    ],
-    "donate": {
-        "paypal": "ronan56.hello@gmail.com"
-    }
+     "name": "GTheme",
+     "description": "A Matomo theme for gugulet.hu",
+     "version": "0.0.1",
+     "theme": true,
+     "require": {
+          "piwik": ">=3.13.1-stable,<4.0.0-b1"
+     },
+     "stylesheet": "stylesheets/theme.less",
+     "javascript": "javascripts/theme.js",
+     "homepage": "https://gugulet.hu",
+     "license": "GPL v3+",
+     "keywords": ["Custom", "Modern"],
+     "support": {
+          "issues": "https://github.com/gugulet-hu/matomo-g-theme/issues",
+          "source": "https://github.com/gugulet-hu/matomo-g-theme"
+     },
+     "authors": [
+          {
+               "name": "g*",
+               "homepage": "https://gugulet.hu"
+          }
+     ]
 }
