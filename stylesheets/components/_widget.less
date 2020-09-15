@@ -1,55 +1,51 @@
 .widget {
-  background-color: white;
-  box-shadow: none;
-  border: none !important;
+     background-color: transparent;
+     box-shadow: none;
+     border: none !important;
 
-  &:hover {
-    box-shadow: none;
-  }
+     &:hover {
+          box-shadow: none;
+     }
 
-  .widgetTop {
-    border: none;
-    background-color: transparent;
-    padding: 0 !important;
+     .widgetTop {
+          border: none;
+          background-color: transparent;
+          padding: 0 !important;
 
-    .buttons {
-      background: @theme-color-background-base;
-      top: 4px;
-      right: 0;
-      padding-left: 0;
+          .buttons {
+               background: transparent;
+               top: 4px;
+               right: 0;
+               padding-left: 0;
 
-      .button {
-        margin-top: 0px;
+               .button {
+                    margin-top: 0px;
 
-        &:first-child {
-          margin-right: 0;
-        }
-      }
-    }
+                    &:first-child {
+                         margin-right: 0;
+                    }
+               }
+          }
 
-    .widgetName {
-      padding: 0 0 15px 0 !important;
-      font-weight: 300;
-      color: @theme-color-header-text;
-    }
-  }
+          .widgetName {
+               padding: 0 0 15px 0 !important;
+               font-weight: 300;
+               color: @theme-color-header-text;
+          }
+     }
 
-  .widgetContent {
-    background-color: @theme-color-background-base;
-    /*border-radius: 2px;
-    border: none;
-    padding: 14px;
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 2px 1px -1px rgba(0, 0, 0, .12);*/
+     .widgetContent {
+          background-color: @theme-color-background-base;
+          padding-top: 15px;
+          box-shadow: none;
+          border: none;
+          border-radius: 0px;
+          overflow: hidden;
 
-    padding-top: 15px;
-    box-shadow: none;
-    border: none;
-    border-radius: 0px;
-    overflow: hidden;
-
-    .dataTable, .card {
-      margin-top: -15px;
-      border: none !important;
-    }
-  }
+          .dataTable,
+          .card {
+               margin-top: -15px;
+               border: none !important;
+          }
+     }
 }
