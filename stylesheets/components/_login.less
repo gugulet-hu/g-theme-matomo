@@ -1,8 +1,24 @@
+#loginPage .loginSection {
+     margin-top: 12%;
+}
+
 .loginForm {
-	h2.card-title {
-		text-align: center;
+     & i#icon-user icon,
+     & i#icon-locked icon,
+     & input[name="login_form_rememberme"],
+     & label[for="login_form_rememberme"] {
+          display: none;
+     }
+     & h2.card-title {
+          text-align: center;
+     }
+     & p#piwik {
+          display: none;
+     }
+     & input#login_form_submit {
+          width: 100%;
 	}
-	p#piwik {
-		display: none;
+	& a#login-form-nav {
+		font-size: 0.5em;
 	}
 }
