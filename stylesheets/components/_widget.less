@@ -1,5 +1,5 @@
 .widget {
-  background-color: transparent;
+  background-color: white;
   box-shadow: none;
   border: none !important;
 
@@ -30,12 +30,12 @@
     .widgetName {
       padding: 0 0 15px 0 !important;
       font-weight: 300;
-      color: #4a4a4a;
+      color: @theme-color-header-text;
     }
   }
 
   .widgetContent {
-    background-color: #ffffff;
+    background-color: @theme-color-background-base;
     /*border-radius: 2px;
     border: none;
     padding: 14px;
@@ -43,8 +43,8 @@
 
     padding-top: 15px;
     box-shadow: none;
-    border: 1px solid #e6e6e6;
-    border-radius: 8px;
+    border: none;
+    border-radius: 0px;
     overflow: hidden;
 
     .dataTable, .card {
