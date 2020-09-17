@@ -22,6 +22,11 @@ class GTheme extends Plugin
 
     public function configureThemeVariables(Plugin\ThemeStyles $vars)
     {
-        $vars->fontFamilyBase = 'Roboto, Helvetica, sans-serif';
+        //Nothing here
     }
+
+    // public function configureThemeVariables(Plugin\ThemeStyles $vars)
+    // {
+    //     $vars->fontFamilyBase = 'Roboto, Helvetica, sans-serif';
+    // }
 }
