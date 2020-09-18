@@ -2,9 +2,15 @@
      margin-top: 12%;
 }
 
-.loginForm {
-     & i#icon-user icon,
-     & i#icon-locked icon,
+#loginPage .loginSection .btn {
+     background-color: transparent;
+     &:hover {
+          background-color: transparent;
+     }
+}
+
+.loginForm,
+#loginTwoFaForm {
      & input[name="login_form_rememberme"],
      & label[for="login_form_rememberme"] {
           display: none;
@@ -17,8 +23,17 @@
      }
      & input#login_form_submit {
           width: 100%;
-	}
-	& a#login-form-nav {
-		font-size: 0.5em;
-	}
+          color: #323036;
+          font-size: 1.3em;
+          &:hover {
+               color: #ceccd2;
+          }
+     }
+     & p {
+          font-size: 0.5em;
+     }
+}
+
+a#login-form-nav {
+     font-size: 0.5em;
 }
