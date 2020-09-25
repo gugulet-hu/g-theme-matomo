@@ -6,7 +6,7 @@
 }
 
 .loginForm,
-#loginTwoFaForm {
+.loginTwoFaForm {
      & input[name="login_form_rememberme"],
      & label[for="login_form_rememberme"] {
           display: none;
@@ -14,13 +14,15 @@
      & h2.card-title {
           text-align: center;
      }
-     & p#piwik {
+     & p,
+     p#piwik {
           display: none;
      }
      & input#login_form_submit {
           width: 100%;
           color: #323036 !important;
           font-size: 1.3em;
+          letter-spacing: 0.2em;
           background-color: transparent;
           &:hover {
                color: #ceccd2 !important;

@@ -1,37 +1,44 @@
 #secondNavBar {
+     ul {
+          & > li > ul > li.active > .item {
+               background-color: transparent !important;
+          }
 
-  ul {
-    & > li > ul > li.active > .item {
-      background-color: transparent !important;
-    }
+          li {
+               &.active > a {
+                    background-color: transparent !important;
+               }
 
-    li {
+               a {
+                    border-radius: 0;
+                    font-weight: 500;
+                    font-size: 14px;
+                    //letter-spacing: .25px;
+                    color: rgba(0, 0, 0, 0.54);
+                    padding: 9px 21px 10px 19px !important;
 
-      &.active > a {
-        background-color: transparent !important;
-      }
+                    &:focus {
+                         outline: none !important;
+                    }
 
-      a {
-        border-radius: 0;
-        font-weight: 500;
-        font-size: 14px;
-        //letter-spacing: .25px;
-        color: rgba(0, 0, 0, 0.54);
-        padding: 9px 21px 10px 19px !important;
-
-        &:focus {
-          outline: none !important;
-        }
-
-        &:hover {
-          background-color: #CECCD2 !important;
-          transition: .2s ease all;
-        }
-      }
-    }
-  }
+                    &:hover {
+                         background-color: #ceccd2 !important;
+                         transition: 0.2s ease all;
+                    }
+               }
+          }
+     }
 }
 
 #root #secondNavBar .navbar > li > ul li .item {
-  padding-left: 65px !important;
+     padding-left: 65px !important;
+}
+
+#topmenu-corehome {
+	background-color: transparent;
+	&:hover, &:active {
+		background-color: transparent;
+		outline: none;
+		border-bottom: 1px solid @theme-color-header-text;
+	}
 }
