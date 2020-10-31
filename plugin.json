@@ -1,7 +1,7 @@
 {
      "name": "GTheme",
-     "description": "A Matomo theme based on gugulet.hu",
-     "version": "0.0.1",
+     "description": "A mimimal Matomo theme",
+     "version": "0.0.2",
      "theme": true,
      "require": {
           "piwik": ">=4.0.0-b1,<5.0.0-b1"
@@ -10,7 +10,7 @@
      "javascript": "javascripts/theme.js",
      "homepage": "https://gugulet.hu",
      "license": "GPL v3+",
-     "keywords": ["Custom", "Minimal"],
+     "keywords": ["custom", "minimal"],
      "support": {
           "issues": "https://github.com/gugulet-hu/matomo-g-theme/issues",
           "source": "https://github.com/gugulet-hu/matomo-g-theme"
