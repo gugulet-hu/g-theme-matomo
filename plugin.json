@@ -1,7 +1,7 @@
 {
      "name": "GTheme",
      "description": "A mimimal Matomo theme",
-     "version": "0.0.2",
+     "version": "0.0.3",
      "theme": true,
      "require": {
           "piwik": ">=4.0.0-b1,<5.0.0-b1"
