@@ -7,5 +7,3 @@ A custom design of the Matomo dashboard and login pages. Using the Google Theme 
 ## Credits
 
 This theme is built on top of Google Theme by ronan-hello and uses [fontawesome](https://fontawesome.com) icons in places.
-
-<p align="center"><a href="https://gugulet.hu?src=github-repo"><img src="https://gugulet.hu/site/wp-content/uploads/logo-bottom-500x100-1.png" height="50"></a></p>
